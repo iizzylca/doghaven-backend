@@ -27,6 +27,7 @@ puts " Seeding rescues..."
             name: Faker::Food.ingredient,
             image: 'https://i.pinimg.com/564x/33/e2/d0/33e2d011be41f6aba09c28ee8059baf6.jpg',
             description: Faker::Creature::Dog.meme_phrase,
+            like: '0',
             rescue: rescue_center
         )
     end

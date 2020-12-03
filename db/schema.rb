@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 2020_12_03_071619) do
     t.string "name"
     t.string "image"
     t.string "description"
+    t.string "like"
     t.integer "rescue_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
