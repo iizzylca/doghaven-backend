@@ -5,4 +5,8 @@ class Api::V1::RescuesController < ApplicationController
         render json: my_rescue
     end
 
+    def index
+        all_rescues = Rescue.all
+        render json: all_rescues
+    end
 end
