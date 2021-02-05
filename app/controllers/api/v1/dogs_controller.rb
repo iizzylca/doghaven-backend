@@ -36,8 +36,8 @@ class Api::V1::DogsController < ApplicationController
     end
 
     def destroy
-        picture_delete = Dog.find(params[:id])
-        picture_delete.destroy
+        dog_obj = Dog.find(params[:id])
+        dog_obj.destroy
     end
 
     private
